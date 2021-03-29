@@ -6,7 +6,7 @@ public class ex4 {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
 		int dem, temp, i=0, j;
-		int[] bin = new int[32];
+		int bin[] = new int[32];
 		
 		System.out.println("10진수를 입력하세요: ");
 		dem = s.nextInt();
