@@ -6,8 +6,8 @@ public class StackEx {
 		StringStack s = new StringStack(10);
 		
 		for(int i=0; i<s.length(); i++) {
-			//s.push("¹®ÀÚ¿­ " + i);
-			System.out.println(s.push("¹®ÀÚ¿­ " + i));
+			//s.push("Â¹Â®Ã€ÃšÂ¿Â­ " + i);
+			System.out.println(s.push("Â¹Â®Ã€ÃšÂ¿Â­ " + i));
 		}
 		
 		for(int i=0; i<s.length(); i++)
