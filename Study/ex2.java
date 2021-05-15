@@ -1,4 +1,4 @@
-/* ex2 ¼­·Î¼Ò ÆÇº° */
+/* ex2 ì„œë¡œì†Œ íŒë³„ */
 import java.util.Scanner;
 public class ex2 {
 
@@ -8,7 +8,7 @@ public class ex2 {
 		int num1, num2;
 		int i, temp, div=0;
 		
-		System.out.println("µÎ ÀÚ¿¬¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.println("ë‘ ìì—°ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 		num1 = s.nextInt();
 		num2 = s.nextInt();
 		
@@ -26,9 +26,9 @@ public class ex2 {
 		}
 		
 		if(div==0)
-			System.out.printf("%d¿Í %d´Â ¼­·Î¼ÒÀÔ´Ï´Ù.\n", num1, num2);
+			System.out.printf("%dì™€ %dëŠ” ì„œë¡œì†Œì…ë‹ˆë‹¤.\n", num1, num2);
 		else
-			System.out.printf("%d¿Í %d´Â ¼­·Î¼Ò°¡ ¾Æ´Õ´Ï´Ù.\n", num1, num2);
+			System.out.printf("%dì™€ %dëŠ” ì„œë¡œì†Œê°€ ì•„ë‹™ë‹ˆë‹¤.\n", num1, num2);
 			
 		s.close();
 	}
