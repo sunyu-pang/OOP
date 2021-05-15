@@ -1,4 +1,4 @@
-/* [2´Ü°è] ÀÎÅÍÆäÀÌ½º */
+/* [2Â´ÃœÂ°Ã¨] Ã€ÃÃ…ÃÃ†Ã¤Ã€ÃŒÂ½Âº */
 public interface Stack {
 	public int length();
 	public Object pop();
