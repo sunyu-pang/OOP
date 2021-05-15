@@ -1,4 +1,4 @@
-/* ex3 ÁÖ¾îÁø ¹üÀ§¿¡¼­ °ø¹è¼öÀÇ °³¼ö Ã£±â */
+/* ex3 ì£¼ì–´ì§„ ë²”ìœ„ì—ì„œ ê³µë°°ìˆ˜ì˜ ê°œìˆ˜ ì°¾ê¸° */
 import java.util.Scanner;
 public class ex3 {
 
@@ -7,7 +7,7 @@ public class ex3 {
 		Scanner s = new Scanner(System.in);
 		int a, b, i, temp, gcd=1, gcp, num;
 		
-		System.out.println("µÎ ÀÚ¿¬¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.println("ë‘ ìì—°ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 		a = s.nextInt();
 		b = s.nextInt();
 		
@@ -25,7 +25,7 @@ public class ex3 {
 		gcp = (a*b) / gcd;
 		
 		num = 1000/gcp;
-		System.out.printf("1ºÎÅÍ 1000±îÁöÀÇ ¼ö Áß¿¡¼­ %d¿Í %dÀÇ °ø¹è¼öÀÇ °³¼ö´Â %dÀÔ´Ï´Ù.\n", a, b, num);
+		System.out.printf("1ë¶€í„° 1000ê¹Œì§€ì˜ ìˆ˜ ì¤‘ì—ì„œ %dì™€ %dì˜ ê³µë°°ìˆ˜ì˜ ê°œìˆ˜ëŠ” %dì…ë‹ˆë‹¤.\n", a, b, num);
 	
 		s.close();
 	}
