@@ -1,4 +1,4 @@
-/* ex1 ÀÛÀº ¼öºÎÅÍ Ãâ·ÂÇÏ±â */
+/* ex1 ì‘ì€ ìˆ˜ë¶€í„° ì¶œë ¥í•˜ê¸° */
 import java.util.Scanner;
 public class ex1 {
 
@@ -8,7 +8,7 @@ public class ex1 {
 		int num[] = new int[3];
 		int i, j, temp;
 		
-		System.out.println("¼­·Î ´Ù¸¥ ¼¼ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.println("ì„œë¡œ ë‹¤ë¥¸ ì„¸ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 		for(i=0; i<3; i++)
 			num[i] = s.nextInt();
 		
