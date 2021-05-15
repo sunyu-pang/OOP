@@ -1,4 +1,4 @@
-/* ex4 10Áø¼ö¸¦ 2Áø¼ö·Î º¯È¯ÇÏ±â */
+/* ex4 10ì§„ìˆ˜ë¥¼ 2ì§„ìˆ˜ë¡œ ë³€í™˜í•˜ê¸° */
 import java.util.Scanner;
 public class ex4 {
 
@@ -8,7 +8,7 @@ public class ex4 {
 		int dem, temp, i=0, j;
 		int bin[] = new int[32];
 		
-		System.out.println("10Áø¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.println("10ì§„ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 		dem = s.nextInt();
 		
 		temp = dem;
@@ -18,7 +18,7 @@ public class ex4 {
 			i++;
 		}
 		
-		System.out.printf("%d¸¦ 2Áø¼ö·Î º¯È¯: ", dem);
+		System.out.printf("%dë¥¼ 2ì§„ìˆ˜ë¡œ ë³€í™˜: ", dem);
 		for(j=i; j>=0; j--)
 			System.out.print(bin[j]);
 		
